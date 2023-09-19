@@ -1,0 +1,19 @@
+﻿//Программа, которая на вход принимает три числа и выдаёт наибольшее
+
+Console.WriteLine("Укажите первое число: ");
+int number1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Укажите второе число: ");
+int number2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Укажите третье число: ");
+int number3 = int.Parse(Console.ReadLine());
+
+int max = number1;
+if(number2 > max)
+{
+    max = number2;
+}
+if(number3 > max)
+{
+    max = number3;
+}
+Console.WriteLine($"Набольшее число {max}!");
